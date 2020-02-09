@@ -16,5 +16,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: medmouine/catsvsdogs-worker:latest
+      - image: gcr.io/devops-workshop-medmouine/worker
         name: worker

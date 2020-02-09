@@ -16,7 +16,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: medmouine/catsvsdogs-result:latest
+      - image: gcr.io/devops-workshop-medmouine/result
         name: result
         ports:
         - containerPort: 80

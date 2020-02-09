@@ -16,7 +16,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: medmouine/catsvsdogs-vote:latest
+      - image: gcr.io/devops-workshop-medmouine/vote
         name: vote
         ports:
         - containerPort: 80
